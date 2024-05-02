@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item {
+  margin: 5px; /* Adjust spacing between items as needed */
+  padding: 10px; /* Optional: Add padding for better visual appearance */
+  background-color: #ddd; /* Optional: Add background color for items */
+}
